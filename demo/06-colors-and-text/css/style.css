@@ -1,0 +1,39 @@
+#first-paragraph {
+    color: rgb(7, 97, 7);
+    background-color: rgb(241, 221, 197);
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: rgb(160, 12, 12);
+    background-color: plum;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: rgb(194, 238, 223);
+}
+
+#span1 {
+    color: burlywood;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+#span2 {
+    color:beige;
+    background-color: rgb(65, 117, 117);
+}
+
+#span3 {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+#span4 {
+    font-weight: bold;
+    color: rgb(153, 4, 4);
+}
