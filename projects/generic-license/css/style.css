@@ -1,0 +1,104 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 2px solid black;
+    border-radius: 24px;
+    width: 700px;
+    background-color: rgb(226, 156, 110);
+}
+#content h1 {
+    border: 2px solid black;
+    font-size: 60px;
+    color: #0707bd;
+}
+#left-side {
+    display: inline-block;
+    border: 2px solid red;
+    width: 66%;
+}
+#right-side {
+    display: inline-block;
+    border: 2px solid blue;
+    width: 33%;
+}
+#left-side h4 {
+    border: 2px solid green;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+#id-and-expiration {
+    border: 2px solid green;
+}
+#address {
+    border: 2px solid blue;
+    font-weight: bold;
+}
+#personal-info {
+    border: 2px solid lightblue;
+}
+#license1 {
+    border: 2px solid black;
+    display: inline-block;
+    width: 48%;
+}
+#expires1 {
+    border: 2px solid blue;
+    display: inline-block;
+    width: 48%;
+}
+#small-pic img {
+    border: 2px solid red;
+    display: inline-block;
+    width: 20%;
+}
+#data-fields {
+    border: 2px solid black;
+    display: inline-block;
+    width: 66%
+}
+#data-left {
+    border: 2px solid purple;
+    display: inline-block;
+    width: 48%;
+}
+#data-right {
+    border: 2px solid green;
+    display: inline-block;
+    width: 48%;
+}
+#right-side img {
+    border: 2px solid lightblue;
+    width: 100%;
+}
+#donor {
+    border: 2px solid red;
+    display: inline-block;
+    color: red;
+}
+#real-id {
+    border: 2px solid purple;
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 50%;
+}
+div #id-and-expiration {
+    color: blue;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
+div #data-fields {
+    color: blue;
+}
+div #signature {
+    color: black;
+}
