@@ -19,9 +19,17 @@ body {
     background-color: white;
     border-radius: 5px;
 }
-.hula-hoop {
+.hooping {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.hula-hoop {
+    background-color: #da8686;
+    padding: 36px;
+}
+#led-hula {
+    background-color: white;
+    border-radius: 5px;
 }
