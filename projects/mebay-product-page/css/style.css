@@ -5,3 +5,93 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#project {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr;
+    margin: 40px;
+}
+#mebay {
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 16px;
+}
+#pic2,
+#pic3,
+#pic4 {
+    width: 80px;
+    border-radius: 15%;
+}
+#pic1 {
+    width: 80px;
+    border-radius: 15%;
+    border: 2px solid black;
+    padding: 4px 8px;
+}
+#pic5 {
+    width: 80px;
+    border-radius: 15%;
+    padding: 2px 0px;
+}
+#middle-content {
+    padding: 0px 120px;
+    background-color: #d1d1d1c2;
+    border-radius: 3%;
+    margin: 0px 10px;
+}
+#info {
+    border: 2px solid #d1d1d1c2;
+    padding: 15px;
+    border-radius: 10px;
+}
+div a {
+    color: black;
+}
+#money {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0px 6px;
+}
+#best {
+    font-size: 14px;
+    padding: 0px 0px 24px;
+    color: #7c7b7b;
+}
+#full-blue {
+    color: white;
+    background-color: #0654ba;
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 25px;
+    margin: 18px 0px 0px 0px;
+}
+#blue-outline {
+    color: #0654ba;
+    text-align: center;
+    border: 2px solid #0654ba;
+    padding: 13px 20px;
+    border-radius: 25px;
+    margin: 8px 0px;
+}
+#offer {
+    color: #0654ba;
+    border: 2px solid #0654ba;
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 25px;
+    width: 235px;
+    display: inline-block;
+}
+#wishlist {
+    color: #0654ba;
+    border: 2px solid #0654ba;
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 25px;
+    width: 240px;
+    display: inline-block;
+    margin-left: 5px;
+}
+h2 {
+    margin: 0px;
+}
