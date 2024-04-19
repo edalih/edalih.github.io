@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+.card {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #fad0c1;
+    background: linear-gradient(
+        to bottom left, 
+        #ffe4da, 
+        #fff7f7, 
+        #fad0c1
+    );
+    display: flex;
+    flex-direction: column;
+    /*pt 1 to space paragraph to fill space evenly*/
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.card p {
+    font-size: 18px;
+    flex: 1;
+     /*pt 2 to space paragraph to fill space evenly*/
+}
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightcoral;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid lightcoral;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+/*pseudo-class selector to create hover state and transition*/
+.card a:hover {
+    background-color: transparent;
+    /* border: 3px solid lightcoral; */
+    color: lightcoral;
+}
