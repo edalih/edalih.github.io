@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Playfair Display";
 }
 #portfolio {
     max-width: 1000px;
@@ -25,7 +25,7 @@ body {
     padding: 32px;
 }
 #hero h2 {
-    font-size: 52px;
+    font-size: 60px;
     margin-bottom: 3vh;
 }
 #hero h4 {
@@ -39,6 +39,8 @@ body {
     padding: 20px 48px;
     border-radius: 5px;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 .my-work {
     display: flex;
@@ -57,7 +59,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     background-color: antiquewhite;
-    padding: 140px 24px 100px;
+    padding: 120px 24px 100px;
 }
 #billie {
     display: flex;
@@ -66,7 +68,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     background-color: antiquewhite;
-    padding: 140px 65px 126px;
+    padding: 140px 65px 115px;
 }
 .cards {
     max-width: 400px;
@@ -86,6 +88,8 @@ body {
 }
 .cards a {
     color: #f8dcb7;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     text-decoration: none;
     background-color: #000000;
     font-size: 22px;
@@ -100,7 +104,4 @@ body {
 .cards a:hover {
     background-color: transparent;
     color: #000000;
-}
-#card-2 p {
-    padding-top: 6px;
 }
