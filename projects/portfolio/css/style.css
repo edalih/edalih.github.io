@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#portfolio {
+    max-width: 1000px;
+    margin: 48px auto;
+    text-align: center;
+}
+#hero {
+    background-image: url("../images/MattePaintingProject_6018_ETorres_Final.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+#hero .hero-class {
+    text-align: center;
+    padding: 32px;
+}
+#hero h2 {
+    font-size: 52px;
+    margin-bottom: 3vh;
+}
+#hero h4 {
+    font-size: 28px;
+}
+#hero a {
+    font-size: 16px;
+    display: inline-block;
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding: 20px 48px;
+    border-radius: 5px;
+    color: black;
+}
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.my-work img {
+    height: 350px;
+    flex: 1;
+    object-fit: cover;
+}
+#daydreams {
+    display: flex;
+    width: 325px;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: antiquewhite;
+    padding: 140px 24px 100px;
+}
+#billie {
+    display: flex;
+    width: 625px;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: antiquewhite;
+    padding: 140px 65px 126px;
+}
+.cards {
+    max-width: 400px;
+    background-color: antiquewhite;
+    margin: 16px 20px;
+    border: 3px solid #f8dcb7;
+    display: inline-block;
+}
+.cards img {
+    width: 100%;
+}
+.cards h2 {
+    padding: 0px 12px;
+}
+.cards p {
+    padding: 0px 24px;
+}
+.cards a {
+    color: #f8dcb7;
+    text-decoration: none;
+    background-color: #000000;
+    font-size: 22px;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    border: 3px solid antiquewhite;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+.cards a:hover {
+    background-color: transparent;
+    color: #000000;
+}
+#card-2 p {
+    padding-top: 6px;
+}
