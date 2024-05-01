@@ -223,7 +223,12 @@ a {
         font-size: 36px;
     }
     .three-cards {
-        grid-template-columns: 1fr;
-        grid-template-areas: ;
+        flex-direction: column;
+    }
+    .two-cards {
+        flex-direction: column;
+    }
+    .two-cards a {
+        width: 80vw;
     }
 }
