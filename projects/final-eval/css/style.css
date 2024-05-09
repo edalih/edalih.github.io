@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #a6d3ec;
+}
+#body-container {
+    max-width: 80vw;
+    margin: 48px auto;
+    text-align: center;
+    background-color: white;
+}
+#heading h4 {
+    padding-top: 24px
+}
+#heading h1 {
+    font-size: 50px;
+    margin: 12px;
+    background-color: #a6d3ec;
+    padding: 16px;
+}
+#pics {
+    display: flex;
+    justify-content: center;
+    margin: 42px;
+}
+#pics p {
+    padding: 32px;
+    font-weight: bold;
+    font-size: 42px;
+}
+#pics img {
+    height: 250px;
+}
+#main-info h2 {
+    font-size: 32px;
+}
+.info {
+    font-size: 24px;
+}
+#buttons {
+    margin: 36px;
+}
+#buttons a {
+    background-color: #a6d3ec;
+    color: black;
+    text-decoration: none;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 36px;
+    border-radius: 5px;
+    text-align: center;
+}
+#questions {
+    padding-bottom: 24px;
+}
+
+/* MEDIA QUERIE */
+
+@media screen and (max-width: 480px) {
+    #heading h1 {
+        font-size: 32px;
+    }
+}
