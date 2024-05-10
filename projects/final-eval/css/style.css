@@ -36,6 +36,9 @@ body {
 #pics img {
     height: 250px;
 }
+#pics #img2 {
+    border: 2px solid #26749e;
+}
 #main-info h2 {
     font-size: 32px;
     background-color: #a6d3ec;
