@@ -24,7 +24,7 @@ body {
     background-color: black;
     color: white;
     margin-bottom: 24px;
-    padding: 16px 24px;
+    padding: 12px 32px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -102,6 +102,7 @@ h1 {
     text-align: center;
     color: white;
     padding: 12px;
+    text-shadow: 2px 2px 2px #2d6807;
 }
 
 /* FOOTER */
@@ -110,7 +111,9 @@ h1 {
 #footer {
     background-color: #2d6807;
     color: white;
-    padding: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
 }
 #footer a {
     text-decoration: none;
@@ -118,14 +121,14 @@ h1 {
 }
 #footer-columns {
     width: 800px;
-    margin: 0px auto;
-    padding: 48px 0px;
     display: flex;
     justify-content: space-evenly;
 }
 #footer-columns a {
-    display: block;
-    padding: 8px 0px;
+    padding: 15px;
+}
+#treehouse img {
+    height: 50px;
 }
 
 
@@ -133,19 +136,17 @@ h1 {
 
 
 #main-content {
-    max-width: 1000px;
-    margin: 48px auto;
     text-align: center;
 }
 #featured {
     border: 3px solid black;
-    /* max-width: 600px; */
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 #featured img {
     max-width: 600px;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 12px;
@@ -161,6 +162,9 @@ h1 {
     border: 2px solid #2d6807;
     padding: 24px;
     margin: 12px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-menu {
     margin: 24px;
@@ -187,15 +191,16 @@ h1 {
     color: white;
     background-color: black;
     padding: 12px;
-    margin: 24px;
+    width: 100%;
+    text-shadow: 2px 2px 2px #2d6807;
 }
-.block {
+.block-1 {
     background-color: white;
     margin-top: 36px;
 }
 
 /* MEDIA-QUERIES */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
     #navbar {
         display: flex;
         flex-wrap: wrap;
@@ -204,5 +209,13 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #nav a {
+        padding: 8px;
+    }
+    .menu-card-1,
+    .menu-card-2,
+    .menu-card-3 {
+        width: 100%;
     }
 }
